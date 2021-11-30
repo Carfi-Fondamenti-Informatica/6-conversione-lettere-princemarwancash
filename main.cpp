@@ -8,8 +8,8 @@ int main() {
     cout << "Inserisci il carattere da convertire:" << endl;
     cin >> input;
     if (controllo(input)) {
+        cout << "Il carattere ottenuto e\':" << endl;
         valore = convertitore(input);
-        cout << "Il carattere ottenuto e\':" << " " << valore;
     } else {
         cout << "Errore" << endl;
     }
