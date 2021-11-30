@@ -30,7 +30,7 @@ int main() {
         valore = convertitore(input);
         cout << "Il carattere ottenuto e\':" << " " << valore;
     } else {
-        cout << "Errore" << endl;
+        cout << "errore" << endl;
     }
     return 0;
 }
