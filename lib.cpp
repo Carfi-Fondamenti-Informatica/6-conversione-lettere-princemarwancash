@@ -10,12 +10,11 @@ bool controllo (char c){
     }
 }
 
-char convertitore(char c) {
+void convertitore(char c) {
     char risultato;
     if (c >= 'A' and c <= 'Z') {
         risultato = c + 32;
     } else if (c >= 'a' and c <= 'z') {
         risultato = c - 32;
-        return risultato;
     }
 }
