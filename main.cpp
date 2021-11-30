@@ -129,7 +129,7 @@ int main (){
     if (controllo(a)){
         convertitore(a);
     } else {
-        cout << "Errore" << endl;
+        cout << "errore" << endl;
     }
     return 0;
 }
